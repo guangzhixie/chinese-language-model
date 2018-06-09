@@ -13,3 +13,10 @@ The model will be placed at [model/](model/) directory. It is using Kneser-Ney S
 A sample usage is provided in the file [ngram-udage.ipynb](ngram-udage.ipynb).
 
 You can also train your own model, with either Add-k Smoothing or Kneser-Ney Smoothing. See [ngram.ipynb](ngram.ipynb) for an example.
+
+Note: You may need to install dill by:
+
+```shell
+pip install dill
+```
+
