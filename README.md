@@ -1,6 +1,6 @@
 # chinese-language-model
 
-3-gram Chinese Language Model.
+Tri-gram Chinese Language Model.
 
 You can download a trained model by:
 
