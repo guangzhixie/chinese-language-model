@@ -5,7 +5,7 @@
 You can download a trained model by:
 
 ```shell
-wget --show-progress -P 'model/' ''
+wget --show-progress -P 'model/' 'https://www.dropbox.com/s/xos3ojg7grtr4c9/lm.pkl?dl=0'
 ```
 
 The model will be placed at [model/](model/) directory. It is using Kneser-Ney Smoothing, and trained with a 9M corpus. The test perplexity is 39.26 against an 8k corpus.
