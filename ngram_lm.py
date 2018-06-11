@@ -209,7 +209,7 @@ class KNTrigramLM(object):
         """
         delta = delta = self.delta
         # KN unigram, then recursively compute bigram, trigram
-        pw1 = self.type_fertility[word] / self.z_tf
+        pw1 = self.type_fertility.get(word, 0) / self.z_tf
         pw2 = self.kn_interp(word, tuple(seq[-1:]), delta, pw1)
         pw3 = self.kn_interp(word, tuple(seq[-2:]), delta, pw2)
         return pw3
